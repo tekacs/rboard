@@ -6,5 +6,5 @@ haml :version => 2.2.21
 highline
 paperclip :version => 2.3.1.1
 RedCloth
-thinking_sphinx
+thinking-sphinx
 will_paginate
