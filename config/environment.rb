@@ -52,7 +52,7 @@ CONFIG = Rails::Initializer.run do |config|
   # lol activeresource
   config.frameworks -= [:action_web_service, :activeresource]
 
-  config.action_controller.session = { :session_key => "rboard_secret", :secret => "this is a super secret passphrase that protects rboard and you should probably change it" }
+  config.action_controller.session = { :session_key => "rboard_secret", :secret => "rBoardSecretPhrase219783908293021382839021830982109423[][][''\'" }
 
   config.active_record.default_timezone = :utc
   config.time_zone = "UTC"
