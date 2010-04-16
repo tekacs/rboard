@@ -8,3 +8,4 @@ highline
 paperclip --version '2.3.1.1'
 RedCloth
 will_paginate
+thinking-sphinx
