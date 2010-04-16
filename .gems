@@ -1,9 +1,9 @@
-by_star :version => 0.6.3
+by_star --version '0.6.3'
 chronic
 coderay
 dotiw
-haml :version => 2.2.21
+haml --version '2.2.21'
 highline
-paperclip :version => 2.3.1.1
+paperclip --version '2.3.1.1'
 RedCloth
 will_paginate
