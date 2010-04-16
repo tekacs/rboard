@@ -19,10 +19,10 @@ task :install => :environment do
   puts "*" * 50
   puts "Welcome to rBoard's install process."
   puts "*" * 50
-  login = highline.ask("What would you like your login for the administrator account to be?")
+  login = ENV['admin_login'] || highline.ask("What would you like your login for the administrator account to be?")
 
-  password = highline.ask("What would you like your password for this account to be?")
+  password = ENV['admin_pw'] || highline.ask("What would you like your password for this account to be?")
 
-  email = highline.ask("What is your email address for this account?")
+  email = ENV['admin_email'] || highline.ask("What is your email address for this account?")
   Rboard.install!(login, password, email)
 end
